@@ -6,7 +6,7 @@ CREATE TABLE plano
 (
     plano_id	INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     plano	VARCHAR(512) NOT NULL,
-    valor_plano	VARCHAR(512) NOT NULL
+    valor_plano	DECIMAL(10, 2) NOT NULL
 ) engine = InnoDB;
 
 CREATE TABLE usuario 
@@ -65,9 +65,9 @@ CREATE TABLE reproducao
 
 INSERT INTO plano (plano_id, plano, valor_plano) VALUES
 	('1', 'gratuito', '0'),
-	('2', 'familiar', '7,99'),
-	('3', 'universitário', '5,99'),
-	('4', 'pessoal', '6,99');
+	('2', 'familiar', '7.99'),
+	('3', 'universitário', '5.99'),
+	('4', 'pessoal', '6.99');
 
 INSERT INTO usuario (pessoa_usuaria_id, nome_pessoa_usuaria, idade, plano_id, data_assinatura) VALUES
 	('1', 'Barbara Liskov', '82', '1', '2019-10-20'),
