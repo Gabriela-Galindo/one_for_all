@@ -1,13 +1,10 @@
-# :construction: README customizado em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
+# One for All: Normalização de tabelas SQL
 
-Para deixá-lo com a sua cara, basta alterar o seguinte arquivo da sua máquina: ~/.student-repo-publisher/custom/_NEW_README.md
+### Projeto realizado durante o curso da Trybe, módulo de Back-end, seção sobre Funções SQL, JOINs e Normalização.
 
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+### O projeto consiste em normalizar tabelas proveniente de um clone do banco de dados do Spotify. Para isso foi necessário 
+- Analisar as tabelas não normalizadas
+- Identificar modificações necessárias para que suas tabelas estejam adequadamente na 1ª, 2ª e 3ª Forma Normais
+- Criar um banco de dados a partir de uma planilha que contém tabelas e dados
+- Criar e modelar tabelas
+- Escrever queries que passam pelos principais comandos SQL 
